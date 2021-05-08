@@ -2,8 +2,7 @@ local MakePlayerCharacter = require("prefabs/player_common")
 
 local assets =
 {
-	Asset("ANIM", "anim/winona.zip"),
-    Asset("SOUND", "sound/winona.fsb"),
+	Asset("ANIM", "anim/wendy.zip"),
 }
 
 local prefabs =
@@ -15,10 +14,10 @@ local start_inv =
 }
 
 local fn = function(inst)
-	inst.soundsname = "winona"
+	inst.soundsname = "wendy"
 	
 	local minimap = inst.entity:AddMiniMapEntity()
-	minimap:SetIcon( "winona.tex" )
+	minimap:SetIcon( "minimap/wendst.tex" )
 	
 	inst.components.health:SetMaxHealth(150)
 	inst.components.hunger:SetMax(150)
@@ -26,4 +25,4 @@ local fn = function(inst)
 	
 end
 
-return MakePlayerCharacter("winona", prefabs, assets, fn, start_inv)
+return MakePlayerCharacter("wendst", prefabs, assets, fn, start_inv)
