@@ -16,7 +16,6 @@ local start_inv =
 local fn = function(inst)
 	inst.soundsname = "wendy"
 
-	-- inst.AnimState:SetBank("wendy")
 	inst.AnimState:SetBuild("wendy")
 	
 	local minimap = inst.entity:AddMiniMapEntity()

@@ -8,7 +8,6 @@ PrefabFiles = {
 }
 
 Assets = { 
-	-- Asset("ANIM", "anim/wendy.zip"),
 
     Asset( "IMAGE", "images/saveslot_portraits/wendst.tex" ),
 	Asset( "ATLAS", "images/saveslot_portraits/wendst.xml" ),
