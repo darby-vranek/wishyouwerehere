@@ -7,10 +7,12 @@ local assets =
 
 local prefabs =
 {
+	"abby_flower"
 }
 
 local start_inv =
 {
+	"abby_flower"
 }
 
 local fn = function(inst)
